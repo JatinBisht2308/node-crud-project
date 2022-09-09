@@ -1,9 +1,7 @@
 const res = require('express/lib/response');
-
+const userController = require("../controllers/userController")
 const router = require('express').Router();
 
-router.post("/",(req,res)=>{
-    res.send(`API is working now, YAAY!!`)
-})
+router.post("/", userController.signUp);
 
 module.exports = router;
