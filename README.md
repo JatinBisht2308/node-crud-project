@@ -1,6 +1,6 @@
 # nodejs-starter-project
 
-Author - Akhil Sharma
+Author - Jatin Bisht
 
 Just the right number of packages to get started with the most common nodejs projects - ToDos, CRUDs, ecommerce - anything that requires you to work with 
 1. Express 
